@@ -41,7 +41,7 @@ public class GraffitiTutorial : UpdatableAndDeletable
             string graffitiMode = Plugin.improvedInput ? KeyCodeTranslator.GetImprovedInputKeyName(0, "thevinki:graffiti") : "Up";
             string craft = Plugin.improvedInput ? KeyCodeTranslator.GetImprovedInputKeyName(0, "thevinki:craft") : "Pickup";
             game.cameras.First().hud.textPrompt.AddMessage(
-                game.manager.rainWorld.inGameTranslator.Translate("Hold (" + graffitiMode + " + " + craft + ") while carrying a rock and colorful object (pearls, fruit, etc.) to craft a Spray Can."),
+                game.manager.rainWorld.inGameTranslator.Translate("Hold (") + graffitiMode + game.manager.rainWorld.inGameTranslator.Translate(" + ") + craft + game.manager.rainWorld.inGameTranslator.Translate(") while carrying a rock and colorful object (pearls, fruit, etc.) to craft a Spray Can."),
                 0, 600, false, false
             );
             game.cameras.First().hud.textPrompt.AddMessage(
@@ -57,14 +57,14 @@ public class GraffitiTutorial : UpdatableAndDeletable
             if (Plugin.improvedInput)
             {
                 game.cameras.First().hud.textPrompt.AddMessage(
-                    game.manager.rainWorld.inGameTranslator.Translate("Press (" + graffitiMode + spray + ") while carrying a Spray Can to spend a charge and spray graffiti."),
+                    game.manager.rainWorld.inGameTranslator.Translate("Press (") + graffitiMode + spray + game.manager.rainWorld.inGameTranslator.Translate(") while carrying a Spray Can to spend a charge and spray graffiti."),
                     0, 600, false, false
                 );
             }
             else
             {
                 game.cameras.First().hud.textPrompt.AddMessage(
-                    game.manager.rainWorld.inGameTranslator.Translate("Press (" + spray + ") while in midair and carrying a Spray Can to spend a charge and spray graffiti."),
+                    game.manager.rainWorld.inGameTranslator.Translate("Press (") + spray + game.manager.rainWorld.inGameTranslator.Translate(") while in midair and carrying a Spray Can to spend a charge and spray graffiti."),
                     0, 600, false, false
                 );
             }

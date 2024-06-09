@@ -38,7 +38,7 @@ public class GrindTutorial : UpdatableAndDeletable
         {
             string grind = Plugin.improvedInput ? KeyCodeTranslator.GetImprovedInputKeyName(0, "thevinki:grind") : "Pickup";
             game.cameras.First().hud.textPrompt.AddMessage(
-                game.manager.rainWorld.inGameTranslator.Translate("Hold (" + grind + ") while moving atop a horizontal beam or climbing a vertical pole to grind."),
+                game.manager.rainWorld.inGameTranslator.Translate("Hold (") + grind + game.manager.rainWorld.inGameTranslator.Translate(") while moving atop a horizontal beam or climbing a vertical pole to grind."),
                 0, 600, false, false
             );
             game.cameras.First().hud.textPrompt.AddMessage(
@@ -55,7 +55,7 @@ public class GrindTutorial : UpdatableAndDeletable
         {
             string grind = Plugin.improvedInput ? KeyCodeTranslator.GetImprovedInputKeyName(0, "thevinki:grind") : "Pickup";
             game.cameras.First().hud.textPrompt.AddMessage(
-                game.manager.rainWorld.inGameTranslator.Translate("Hold (" + grind + ") while falling to catch a horizontal beam with your feet and continue grinding."),
+                game.manager.rainWorld.inGameTranslator.Translate("Hold (") + grind + game.manager.rainWorld.inGameTranslator.Translate(") while falling to catch a horizontal beam with your feet and continue grinding."),
                 0, 600, false, false
             );
             game.cameras.First().hud.textPrompt.AddMessage(

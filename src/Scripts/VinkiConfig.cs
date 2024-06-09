@@ -30,53 +30,53 @@ namespace Vinki
 
         public VinkiConfig()
         {
-            RequireCansGraffiti = config.Bind("requireCansGraffiti", true, new ConfigurableInfo("Requires a spray can to spray graffiti on the background (craft a can with a rock and a colorful item).", tags:
+            RequireCansGraffiti = config.Bind("requireCansGraffiti", true, new ConfigurableInfo(Translate("Requires a spray can to spray graffiti on the background (craft a can with a rock and a colorful item)."), tags:
             [
-                "Require Spray Cans for Graffiti"
+                Translate("Require Spray Cans for Graffiti")
             ]));
-            RequireCansTagging = config.Bind("requireCansTagging", true, new ConfigurableInfo("Requires a spray can to tag creatures (craft a can with a rock and a colorful item).", tags:
+            RequireCansTagging = config.Bind("requireCansTagging", true, new ConfigurableInfo(Translate("Requires a spray can to tag creatures (craft a can with a rock and a colorful item)."), tags:
             [
-                "Require Spray Cans for Tagging"
+                Translate("Require Spray Cans for Tagging")
             ]));
-            UseGraffitiButton = config.Bind("useGraffitiButton", true, new ConfigurableInfo("Use the Graffiti Mode button when crafting, spraying, and tagging. Disable if you have custom bindings and don't like having to press two buttons to perform these abilities.", tags:
+            UseGraffitiButton = config.Bind("useGraffitiButton", true, new ConfigurableInfo(Translate("Use the Graffiti Mode button when crafting, spraying, and tagging. Disable if you have custom bindings and don't like having to press two buttons to perform these abilities."), tags:
             [
-                "Require Graffiti Mode Button for Controls"
+                Translate("Require Graffiti Mode Button for Controls")
             ]));
-            UpGraffiti = config.Bind("upGraffiti", true, new ConfigurableInfo("Use the Up direction for Graffiti Mode (in addition to the normal binding).", tags:
+            UpGraffiti = config.Bind("upGraffiti", true, new ConfigurableInfo(Translate("Use the Up direction for Graffiti Mode (in addition to the normal binding)."), tags:
             [
-                "Use Up as Graffiti Mode"
+                Translate("Use Up as Graffiti Mode")
             ]));
-            TagDamageJolly = config.Bind("tagDamageJolly", false, new ConfigurableInfo("Tagging a player while in Jolly Coop does damage.", tags:
+            TagDamageJolly = config.Bind("tagDamageJolly", false, new ConfigurableInfo(Translate("Tagging a player while in Jolly Coop does damage."), tags:
             [
-                "Tagging Damages Jolly Players"
+                Translate("Tagging Damages Jolly Players")
             ]));
-            TokensInEveryCampaign = config.Bind("tokensInEveryCampaign", false, new ConfigurableInfo("Be able to collect the unlockable graffiti tokens in campaigns besides Vinki's (excluding Saint)", tags:
+            TokensInEveryCampaign = config.Bind("tokensInEveryCampaign", false, new ConfigurableInfo(Translate("Be able to collect the unlockable graffiti tokens in campaigns besides Vinki's (excluding Saint)"), tags:
             [
-                "Graffiti Tokens in Any Campaign"
+                Translate("Graffiti Tokens in Any Campaign")
             ]));
-            AutoOpenMap = config.Bind("autoOpenMap", true, new ConfigurableInfo("Automatically open the quest map after a cycle where you spray a new story graffiti. Disable if you want to speedrun", tags:
+            AutoOpenMap = config.Bind("autoOpenMap", true, new ConfigurableInfo(Translate("Automatically open the quest map after a cycle where you spray a new story graffiti. Disable if you want to speedrun"), tags:
             [
-                "Automatically Open Quest Map"
+                Translate("Automatically Open Quest Map")
             ]));
-            ShowVinkiTitleCard = config.Bind("showVinkiTitleCard", true, new ConfigurableInfo("Always show one of the Vinki title cards when starting the game. This replaces other title cards, and the mod must be high in the mod order on the left to work!", tags:
+            ShowVinkiTitleCard = config.Bind("showVinkiTitleCard", true, new ConfigurableInfo(Translate("Always show one of the Vinki title cards when starting the game. This replaces other title cards, and the mod must be high in the mod order on the left to work!"), tags:
             [
-                "Always Show Vinki Title Cards"
+                Translate("Always Show Vinki Title Cards")
             ]));
-            GlassesOverDMS = config.Bind("glassesOverDMS", true, new ConfigurableInfo("Wear Vinki's glasses on top of the current DMS skin for Vinki. Only works if you have DMS enabled.", tags:
+            GlassesOverDMS = config.Bind("glassesOverDMS", true, new ConfigurableInfo(Translate("Wear Vinki's glasses on top of the current DMS skin for Vinki. Only works if you have DMS enabled."), tags:
             [
-                "Wear Glasses Over DMS Skin"
+                Translate("Wear Glasses Over DMS Skin")
             ]));
-            GraffitiFadeTime = config.Bind("graffitiFadeTime", 5, new ConfigurableInfo("How many cycles sprayed graffiti should last (excludes story-related graffiti). Use -1 for infinite cycles.", new ConfigAcceptableRange<int>(-1, 999), tags:
+            GraffitiFadeTime = config.Bind("graffitiFadeTime", 5, new ConfigurableInfo(Translate("How many cycles sprayed graffiti should last (excludes story-related graffiti). Use -1 for infinite cycles."), new ConfigAcceptableRange<int>(-1, 999), tags:
             [
-                "Graffiti Display Cycles"
+                Translate("Graffiti Display Cycles")
             ]));
-            DeleteGraffiti = config.Bind("deleteGraffiti", false, new ConfigurableInfo("Delete Graffiti permanently when running out of display cycles. Will help with loading times if you've sprayed a lot of graffiti.", tags:
+            DeleteGraffiti = config.Bind("deleteGraffiti", false, new ConfigurableInfo(Translate("Delete Graffiti permanently when running out of display cycles. Will help with loading times if you've sprayed a lot of graffiti."), tags:
             [
-                "Delete Graffiti Permanently After Display Cycles"
+                Translate("Delete Graffiti Permanently After Display Cycles")
             ]));
-            RestoreGraffitiOnUpdate = config.Bind("restoreGraffitiOnUpdate", true, new ConfigurableInfo("Restore default graffiti when the mod updates to a new version. Helpful to automatically add any new graffiti from updates.", tags:
+            RestoreGraffitiOnUpdate = config.Bind("restoreGraffitiOnUpdate", true, new ConfigurableInfo(Translate("Restore default graffiti when the mod updates to a new version. Helpful to automatically add any new graffiti from updates."), tags:
             [
-                "Restore Default Graffiti when Mod Updates"
+                Translate("Restore Default Graffiti when Mod Updates")
             ]));
         }
 
@@ -92,18 +92,18 @@ namespace Vinki
             base.Initialize();
             Tabs =
             [
-                new OpTab(this, "Options"),
-                new OpTab(this, "Credits"),
-                new OpTab(this, "Vinki Graffiti"),
-                new OpTab(this, "Unlockables"),
-                new OpTab(this, "Other Graffiti"),
+                new OpTab(this, Translate("Options")),
+                new OpTab(this, Translate("Credits")),
+                new OpTab(this, Translate("Vinki Graffiti")),
+                new OpTab(this, Translate("Unlockables")),
+                new OpTab(this, Translate("Other Graffiti")),
             ];
 
             // Options tab
             AddDivider(593f);
             AddTitle(0);
             AddDivider(557f);
-            AddTitle(0, "Gameplay", 510f);
+            AddTitle(0, Translate("Gameplay"), 510f);
             AddCheckbox(RequireCansGraffiti, 480f);
             AddCheckbox(RequireCansTagging, 450f);
             AddCheckbox(UseGraffitiButton, 420f);
@@ -111,16 +111,16 @@ namespace Vinki
             AddCheckbox(TagDamageJolly, 360f);
             AddCheckbox(TokensInEveryCampaign, 330f);
             AddCheckbox(AutoOpenMap, 300f);
-            AddTitle(0, "Visuals", 245f);
+            AddTitle(0, Translate("Visuals"), 245f);
             AddCheckbox(ShowVinkiTitleCard, 215f);
             AddCheckbox(GlassesOverDMS, 185f);
             AddIntBox(GraffitiFadeTime, 155f);
             AddCheckbox(DeleteGraffiti, 125f);
-            AddTitle(0, "Graffiti Files", 70f);
+            AddTitle(0, Translate("Graffiti Files"), 70f);
             AddCheckbox(RestoreGraffitiOnUpdate, 40f);
             AddHoldButton(
-                "Restore Default Graffiti",
-                "Restore the default graffiti that came with The Vinki. Useful for after installing an update that includes new default graffiti.",
+                Translate("Restore Default Graffiti"),
+                Translate("Restore the default graffiti that came with The Vinki. Useful for after installing an update that includes new default graffiti."),
                 RestoreDefaultGraffiti,
                 0f,
                 200f,
@@ -128,8 +128,8 @@ namespace Vinki
                 x: 50f
             );
             AddHoldButton(
-                "Reset Graffiti Folder to Default",
-                "Revert Graffiti Folder to default. This will remove any custom files you've added to it!",
+                Translate("Reset Graffiti Folder to Default"),
+                Translate("Revert Graffiti Folder to default. This will remove any custom files you've added to it!"),
                 ResetGraffitiFolder,
                 0f,
                 200f,
@@ -141,22 +141,22 @@ namespace Vinki
             AddDivider(593f, 1);
             AddTitle(1);
             AddDivider(557f, 1);
-            AddSubtitle(530f, "Art", 1);
+            AddSubtitle(530f, Translate("Art"), 1);
             AddText(510f, "Beep", 1);
-            AddSubtitle(470f, "Coding", 1);
+            AddSubtitle(470f, Translate("Coding"), 1);
             AddText(450f, "OlayColay", 1);
-            AddSubtitle(410f, "Cursed Art", 1);
+            AddSubtitle(410f, Translate("Cursed Art"), 1);
             AddText(390f, "Beep    Bluzai    MagicaJaphet    MaxDubstep    OlayColay", 1);
-            AddSubtitle(350f, "Level Editing", 1);
+            AddSubtitle(350f, Translate("Level Editing"), 1);
             AddText(330f, "JayDee   TarnishedPotato    Xim", 1);
-            AddSubtitle(290f, "Music", 1);
+            AddSubtitle(290f, Translate("Music"), 1);
             AddText(270f, "MaxDubstep", 1);
-            AddSubtitle(230f, "Sound Effects", 1);
+            AddSubtitle(230f, Translate("Sound Effects"), 1);
             AddText(210f, "MaxDubstep", 1);
-            AddSubtitle(170f, "Writing", 1);
+            AddSubtitle(170f, Translate("Writing"), 1);
             AddText(150f, "Beep    MaxDubstep    OlayColay    TarnishedPotato    Tsuno", 1);
-            AddSubtitle(60f, "Special Thanks", 1);
-            AddText(25f, "Developers of this mod's dependencies\n" +
+            AddSubtitle(60f, Translate("Special Thanks"), 1);
+            AddText(25f, Translate("Developers of this mod's dependencies") + "\n" +
                 "Abigail    a doku    AxoTheAxolotl    Azura Hardware    banba fan   BreadwardBolero    BUGS    Doop    goof\n" +
                 "Johnn    Nico    Rae    Sadman    Salami_Hunter    skrybl    Sunbloom    SunnyBeam    TacticalBombs\n",
             1);
@@ -167,8 +167,8 @@ namespace Vinki
             // Vinki Graffiti Unlockables tab
             AddGraffiti(550f, "decals" + Path.DirectorySeparatorChar + "Unlockables", 3, false, true);
             unlockButton = AddHoldButton(
-                "Unlock All Graffiti",
-                "Unlock every graffiti. Useful if your game is bugged or you had to reset your Graffiti folder.",
+                Translate("Unlock All Graffiti"),
+                Translate("Unlock every graffiti. Useful if your game is bugged or you had to reset your Graffiti folder."),
                 UnlockAllGraffiti,
                 0f,
                 200f,
@@ -179,8 +179,8 @@ namespace Vinki
             );
             unlockButton.greyedOut = Hooks.AllGraffitiUnlocked();
             lockButton = AddHoldButton(
-                "Reset All Unlockables",
-                "Reset all unlockable graffitis to be locked from use.",
+                Translate("Reset All Unlockables"),
+                Translate("Reset all unlockable graffitis to be locked from use."),
                 LockAllGraffiti,
                 0f,
                 200f,
@@ -480,8 +480,8 @@ namespace Vinki
                     {
                         continue;
                     }
-                    string author = "by " + names[i].Substring(0, separator);
-                    string title = '"' + names[i].Substring(separator + 3) + '"';
+                    string author = Translate("by ") + names[i].Substring(0, separator);
+                    string title = Translate("“") + names[i].Substring(separator + 3) + Translate("”");
 
                     OpLabel titleLabel = new(new Vector2(x, y-20f), new Vector2(50f, 20f), hidden ? "???" : title, FLabelAlignment.Center, false);
                     OpLabel authorLabel = new(new Vector2(x, y-35f), new Vector2(50f, 20f), author, FLabelAlignment.Center, false);
@@ -506,37 +506,37 @@ namespace Vinki
             switch (currentOtherPage)
             {
                 case 0:
-                    AddSubtitle(curY + 30f, "Monk", 4);
+                    AddSubtitle(curY + 30f, Translate("Monk"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Yellow", 4);
-                    AddSubtitle(curY + 30f, "Survivor", 4);
+                    AddSubtitle(curY + 30f, Translate("Survivor"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "White", 4);
-                    AddSubtitle(curY + 30f, "Hunter", 4);
+                    AddSubtitle(curY + 30f, Translate("Hunter"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Red", 4);
-                    AddSubtitle(curY + 30f, "Watcher", 4);
+                    AddSubtitle(curY + 30f, Translate("Watcher"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Night", 4);
                     break;
                 case 1:
-                    AddSubtitle(curY + 30f, "Artificer", 4);
+                    AddSubtitle(curY + 30f, Translate("Artificer"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Artificer", 4);
-                    AddSubtitle(curY + 30f, "Gourmand", 4);
+                    AddSubtitle(curY + 30f, Translate("Gourmand"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Gourmand", 4);
-                    AddSubtitle(curY + 30f, "Rivulet", 4);
+                    AddSubtitle(curY + 30f, Translate("Rivulet"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Rivulet", 4);
-                    AddSubtitle(curY + 30f, "Spearmaster", 4);
+                    AddSubtitle(curY + 30f, Translate("Spearmaster"), 4);
                     AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Spear", 4);
                     break;
                 case 2:
-                    AddSubtitle(curY + 30f, "Saint", 4);
+                    AddSubtitle(curY + 30f, Translate("Saint"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Saint", 4);
-                    AddSubtitle(curY + 30f, "???", 4);
+                    AddSubtitle(curY + 30f, Translate("???"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Inv", 4, true);
-                    AddSubtitle(curY + 30f, "Misc.", 4);
+                    AddSubtitle(curY + 30f, Translate("Misc."), 4);
                     AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "Scenes", 4);
                     break;
                 case 3:
-                    AddSubtitle(curY + 30f, "Escort", 4);
+                    AddSubtitle(curY + 30f, Translate("Escort"), 4);
                     curY = AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "EscortMe", 4);
-                    AddSubtitle(curY + 30f, "Gravel-Eater", 4);
+                    AddSubtitle(curY + 30f, Translate("Gravel-Eater"), 4);
                     AddGraffiti(curY - 25f, "decals" + Path.DirectorySeparatorChar + "GraffitiBackup" + Path.DirectorySeparatorChar + "Gravelslug", 4);
                     break;
             }
