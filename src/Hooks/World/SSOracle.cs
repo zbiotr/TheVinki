@@ -1019,25 +1019,25 @@ namespace Vinki
                         float rand = Random.value;
                         if (rand < 0.2f)
                         {
-                            dialogBox.NewMessage(Translate("Hello, " + owner.NameForPlayer(false) + "."), 0);
+                            dialogBox.NewMessage(Translate("Hello, ") + owner.NameForPlayer(false) + Translate("."), 0);
                             dialogBox.NewMessage(Translate("It is good to see you again, even if I have nothing to give you."), 0);
                         }
                         else if (rand < 0.4f)
                         {
-                            dialogBox.NewMessage(Translate("Hello again, " + owner.NameForPlayer(false) + "."), 0);
+                            dialogBox.NewMessage(Translate("Hello again, ") + owner.NameForPlayer(false) + Translate("."), 0);
                             dialogBox.NewMessage(Translate("How have you been?"), 0);
                         }
                         else if (rand < 0.6f)
                         {
-                            dialogBox.NewMessage(Translate("Ah... " + owner.NameForPlayer(false) + ", you're back!"), 0);
+                            dialogBox.NewMessage(Translate("Ah... ") + owner.NameForPlayer(false) + Translate(", you're back!"), 0);
                         }
                         else if (rand < 0.8f)
                         {
-                            dialogBox.NewMessage(Translate("Hello, " + owner.NameForPlayer(false) + ". You're here again."), 0);
+                            dialogBox.NewMessage(Translate("Hello, ") + owner.NameForPlayer(false) + Translate(". You're here again."), 0);
                         }
                         else
                         {
-                            dialogBox.NewMessage(Translate("Hello again, " + owner.NameForPlayer(false) + "."), 0);
+                            dialogBox.NewMessage(Translate("Hello again, ") + owner.NameForPlayer(false) + Translate("."), 0);
                         }
                     }
                     else
