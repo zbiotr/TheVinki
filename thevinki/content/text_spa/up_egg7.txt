@@ -1,0 +1,10 @@
+smskyrimd
+ralof
+
+«Eh, tú. Al fin has despertado».
+Oh, no. No esto, no aquí, no otra vez.
+
+Aceptar tu destino.
+END
+REINICIAR
+start.txt

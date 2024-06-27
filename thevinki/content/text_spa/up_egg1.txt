@@ -1,0 +1,9 @@
+sm2
+vk3d
+
+El gato babosa empieza a pintar en la pared... pero nada de pintura parece salir de la lata.
+«¡Qué lata, hermano! ¿Qué le sucede a esta cosa? ¿Está completamente rota?».
+Espera, algo anda mal con él. Es como si pudieras caminar a su alrededor y ver otros ángulos de su cuerpo.
+
+«Espera, algo raro te está sucediendo».
+up_egg2.txt

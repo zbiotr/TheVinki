@@ -1,0 +1,11 @@
+sm10
+vk-determined
+
+«Oh, ¿en serio? Entonces estemos de chillax y vayamos adonde suelo pasar el rato: ¡el peligroso
+skatepark de basurales ácidos! Dale, sé cómo llegar allí en un santiciclo. ¡Por aquí!».
+No parece que tengas opción más que seguirlo.
+
+«Sí, supongo».
+up_comment2.txt
+
+RW_42 - Kayava
