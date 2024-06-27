@@ -1,0 +1,12 @@
+sm1
+vk-motionblur
+
+A pesar de lo difícil que resulta poder ver al gato-babosa debido a lo rápido que recorre el área,
+notas que tiene un par de bonitos zapatos.
+Unos MUY bonitos.
+Parece que los usa para grindar por los postes, lo cual le otorga una velocidad demencial.
+
+«Quiero eso zapatos».
+up_wantshoes.txt
+¿Quién necesita zapatos?
+up_noshoes.txt

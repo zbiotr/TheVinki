@@ -1,0 +1,12 @@
+sm-upset
+vk-motion blur
+
+Intentas aproximarte, pero el gato-babosa con gustos callejeros y trucos tremendos
+es demasiado rápido como para que puedas seguirle el ritmo.
+Las habilidades acrobáticas que realiza te fascinan.
+¿Qué haces?
+
+Gritarle.
+up_shout.txt
+Tratar de alcanzarle.
+up_chase.txt

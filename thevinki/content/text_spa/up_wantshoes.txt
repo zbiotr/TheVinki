@@ -1,0 +1,10 @@
+sm4
+none
+
+No eres tan rápido como él, por lo que es obvio que correr no es una opción.
+Pero oye, ¿has recorrido todo el camino hasta aquí solo para rendirte y no robar ese par de zapatos?
+Dado que no hay manera de que le puedas alcanzar, armas una trampa
+con rieles señuelo y te sientas esperando a que tu presa caiga en ella.
+
+Esconderte detrás de un pedazo de chatarra.
+up_wantshoes1.txt

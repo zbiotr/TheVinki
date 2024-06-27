@@ -1,0 +1,17 @@
+sm8
+vk-upset1
+
+Con tu puntería dominada por haber luchado contra ciempiés rojos y lagartos tren,
+golpeas justo la cosa en la oreja y el gato-babosa cae del poste del que estaba.
+«¡Yoo! ¡Tranqui, bravucón! Deja de molestarme y no te metas donde no te llaman.
+Solo estoy de chill mientras me llegan vibras de algunos temas pluviales, viejo».
+Puedes oír claramente la música reproduciéndose en la «cápsula pluvial» que dejó caer.
+
+Responder por tus acciones.
+up_answer.txt
+Comentar sobre la música pluvial.
+up_comment.txt
+Cuestionar su salud mental.
+up_question.txt
+
+VI_3 -  Sonic Struggle is Real

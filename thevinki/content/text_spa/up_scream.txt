@@ -1,0 +1,9 @@
+sm-upset
+vk-motionblur
+
+Gritas a todo pulmón, pero sigue sin hacerte caso.
+Te das cuenta que lleva algo en los oídos, y los gritos no te van a ayudar en esta situación.
+Pero quizás pueda escucharte si simplemente se los quitara.
+
+Lanzar una roca para llamar su atención.
+up_rock.txt

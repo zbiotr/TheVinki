@@ -1,0 +1,14 @@
+vk1-flip
+fp1
+
+«Está bien, no hay drama, esta vez ni siquiera voy a dejar un espacio en blanco en esta trena.
+¡La vamos a convertir en nuestra propia galería, maldita sea!».
+Salta a la siguiente pared de la cámara preparándose para adornarla con otra obra maestra.
+Apunta su artefacto hacia la pared y empieza a pintar, pero rápidamente para por algo que parece estar mal.
+«¡Diablos! Parece que este aerosol se agotó por completo. Yoo, compañero, ¿tienes algo genial para rellenarlo?
+¡Hay que mantener las vibras del arte fluyendo!».
+
+Darle una de las muchas perlas que están flotando.
+up_pearl.txt
+Darle el huevo.
+up_egg.txt
