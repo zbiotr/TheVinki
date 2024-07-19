@@ -58,10 +58,6 @@ namespace Vinki
             [
                 Translate("Automatically Open Quest Map")
             ]));
-            ShowVinkiTitleCard = config.Bind("showVinkiTitleCard", true, new ConfigurableInfo(Translate("Always show one of the Vinki title cards when starting the game. This replaces other title cards, and the mod must be high in the mod order on the left to work!"), tags:
-            [
-                Translate("Always Show Vinki Title Cards")
-            ]));
             GlassesOverDMS = config.Bind("glassesOverDMS", true, new ConfigurableInfo(Translate("Wear Vinki's glasses on top of the current DMS skin for Vinki. Only works if you have DMS enabled."), tags:
             [
                 Translate("Wear Glasses Over DMS Skin")
@@ -112,12 +108,11 @@ namespace Vinki
             AddCheckbox(TokensInEveryCampaign, 330f);
             AddCheckbox(AutoOpenMap, 300f);
             AddTitle(0, Translate("Visuals"), 245f);
-            AddCheckbox(ShowVinkiTitleCard, 215f);
-            AddCheckbox(GlassesOverDMS, 185f);
-            AddIntBox(GraffitiFadeTime, 155f);
-            AddCheckbox(DeleteGraffiti, 125f);
-            AddTitle(0, Translate("Graffiti Files"), 70f);
-            AddCheckbox(RestoreGraffitiOnUpdate, 40f);
+            AddCheckbox(GlassesOverDMS, 215f);
+            AddIntBox(GraffitiFadeTime, 185f);
+            AddCheckbox(DeleteGraffiti, 155f);
+            AddTitle(0, Translate("Graffiti Files"), 100f);
+            AddCheckbox(RestoreGraffitiOnUpdate, 70f)
             AddHoldButton(
                 Translate("Restore Default Graffiti"),
                 Translate("Restore the default graffiti that came with The Vinki. Useful for after installing an update that includes new default graffiti."),
