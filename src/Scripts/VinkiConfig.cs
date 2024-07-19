@@ -111,7 +111,7 @@ namespace Vinki
             AddIntBox(GraffitiFadeTime, 185f);
             AddCheckbox(DeleteGraffiti, 155f);
             AddTitle(0, Translate("Graffiti Files"), 100f);
-            AddCheckbox(RestoreGraffitiOnUpdate, 70f)
+            AddCheckbox(RestoreGraffitiOnUpdate, 70f);
             AddHoldButton(
                 Translate("Restore Default Graffiti"),
                 Translate("Restore the default graffiti that came with The Vinki. Useful for after installing an update that includes new default graffiti."),
