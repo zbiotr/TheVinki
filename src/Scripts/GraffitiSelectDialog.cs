@@ -35,6 +35,7 @@ namespace Menu
             float cancelButtonWidth = GetCancelButtonWidth(CurrLang);
             cancelButton = new SimpleButton(this, page, Translate("CLOSE"), "CLOSE", cancelButtonPos - page.pos + new Vector2(0f, 2025f), new Vector2(cancelButtonWidth, 30f));
             page.subObjects.Add(cancelButton);
+
             opening = true;
             targetAlpha = 1f;
 
@@ -244,7 +245,7 @@ namespace Menu
             else if (message.StartsWith("SELECT "))
             {
                 int gNum = int.Parse(message.Substring(7));
-                Debug.Log("Selecting " + Plugin.graffitis[players[currentPlayer].SlugCatClass.ToString()][gNum].imageName);
+                Plugin.VLogger.LogInfo("Selecting " + Plugin.graffitis[players[currentPlayer].SlugCatClass.ToString()][gNum].imageName);
                 PlaySound(SoundID.MENU_Button_Standard_Button_Pressed);
 
                 Plugin.queuedGNums[currentPlayer] = gNum;
@@ -322,7 +323,7 @@ namespace Menu
 
         public override void Update()
         {
-            Debug.Log("Selectables: " + pages[0].selectables.Count() + "\tSubObjects: " + pages[0].subObjects.Count());
+            Plugin.VLogger.LogInfo("Selectables: " + pages[0].selectables.Count() + "\tSubObjects: " + pages[0].subObjects.Count());
             base.Update();
             lastAlpha = currentAlpha;
             currentAlpha = Mathf.Lerp(currentAlpha, targetAlpha, 0.2f);

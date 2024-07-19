@@ -36,10 +36,11 @@ public static partial class Hooks
 
     private static void Vinki_Jolly_PupUpdate(On.JollyCoop.JollyMenu.SymbolButtonTogglePupButton.orig_Update orig, SymbolButtonTogglePupButton self)
     {
-        //if (!(self.owner as JollyPlayerSelector).dirty)
-        //{
-        //    return;
-        //}
+        if (self.menu is not JollySetupDialog)
+        {
+            orig(self);
+            return;
+        }
 
         int index = GetPlayerIndex(self);
 
@@ -123,7 +124,7 @@ public static partial class Hooks
         Color color = GetCustomVinkiColor(self.index, 3);
         Color color2 = GetCustomVinkiColor(self.index, 4);
         Color color3 = GetCustomVinkiColor(self.index, 5);
-        //Debug.Log("New shoe color: " + color2.ToString());
+        //VLogger.LogInfo("New shoe color: " + color2.ToString());
 
         rainPodsSymbol[self.index].sprite.color = color;
         shoesSymbol[self.index].sprite.color = color2;
@@ -136,7 +137,7 @@ public static partial class Hooks
     {
         orig(self, menu, owner, signal, pos, size, symbolNameOn, symbolNameOff, isOn, stringLabelOn, stringLabelOff);
 
-        if (!symbolNameOff.Contains(Enums.vinkiStr))
+        if (!symbolNameOff.Contains(Enums.vinkiStr) || menu is not JollySetupDialog)
         {
             return;
         }
@@ -179,6 +180,11 @@ public static partial class Hooks
     private static void Vinki_Jolly_LoadIcon(On.JollyCoop.JollyMenu.SymbolButtonTogglePupButton.orig_LoadIcon orig, SymbolButtonTogglePupButton self)
     {
         orig(self);
+
+        if (self.menu is not JollySetupDialog)
+        {
+            return;
+        }
 
         int index = GetPlayerIndex(self);
 
@@ -235,11 +241,11 @@ public static partial class Hooks
                     return new Color(0.28627450980392155f, 0.3058823529411765f, 0.8274509803921568f);
                 case 5: return new Color(0.054901960784313725f, 0.00784313725490196f, 0.00784313725490196f);
                 default:
-                    Debug.LogError("Invalid bodyPartIndex!\n" + StackTraceUtility.ExtractStackTrace());
+                    Plugin.VLogger.LogError("Invalid bodyPartIndex!\n" + StackTraceUtility.ExtractStackTrace());
                     return Color.white;
             }
         }
-        //Debug.Log("Checking custom color for player " + playerNumber + ": " + Plugin.jollyColors[playerNumber][bodyPartIndex].GetValueOrDefault().ToString());
+        //VLogger.LogInfo("Checking custom color for player " + playerNumber + ": " + Plugin.jollyColors[playerNumber][bodyPartIndex].GetValueOrDefault().ToString());
         return Plugin.jollyColors[playerNumber][bodyPartIndex].GetValueOrDefault().CloneWithNewAlpha(1f);
     }
 

@@ -15,7 +15,6 @@ namespace Vinki
         public static Configurable<int> GraffitiFadeTime;
         public static Configurable<bool> DeleteGraffiti;
         public static Configurable<bool> RestoreGraffitiOnUpdate;
-        public static Configurable<bool> ShowVinkiTitleCard;
         public static Configurable<bool> GlassesOverDMS;
         public static Configurable<bool> TagDamageJolly;
         public static Configurable<bool> UseGraffitiButton;
