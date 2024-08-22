@@ -1,0 +1,188 @@
+0olaycolay.thevinki-name|Da Vinki
+olaycolay.thevinki-description|Juega como un adolescente angustiado que usa zapatos para grindar por los rieles y que pinta grafitis para vengarse de Cinco Guijarros.
+THE VINKI|DA VINKI
+The Vinki|Da Vinki
+Vinki|Vinki
+Play as an angsty teen wearing rail-grinding shoes and spraying graffiti to enact revenge on 5P.|Juega como un adolescente angustiado que usa zapatos para grindar<LINE>por los rieles y que pinta grafitis para vengarse de Cinco Guijarros.
+Grind|Grindar
+Toggle Grind|Act./des. grinds
+Graffiti Mode|Modo grafitis
+Spray Graffiti|Pintar grafitis
+Craft Spray Can|Fabricar aerosoles
+Tag Creatures|Rociar a criaturas
+SELECT GRAFFITI|ELEGIR GRAFITI
+QUEST MAP|OBJETIVOS
+View graffiti quest objectives and progress|Ver el mapa de objetivos y el progreso de la misión de grafitis
+New graffiti unlocked: |Nuevo grafiti desbloqueado: 
+Were you even listening to me? It appears to me that you find painting in my chamber more interesting than my words, I suppose. I would appreciate it if you did not interrupt me in the future, little friend.|¿Siquiera estabas escuchándome? Me parece que encuentras pintar en mi cámara más interesante<LINE>que mis palabras, supongo. Te agradecería que no me interrumpieras en el futuro, amiguito.
+Little creature... I asked you to please not interrupt me. I know you love art, but could you settle down and listen for a moment?|Pequeña criatura... te pedí que, por favor, no me interrumpieras.<LINE>Sé que amas el arte, pero ¿podrías tranquilizarte y escucharme por un momento?
+And now you are painting again...|Y ahora estás pintando otra vez...
+Am I boring you, little creature?|¿Te estoy aburriendo, pequeña criatura?
+You are not the most attentive creature, are you?|No eres la criatura más atenta, ¿verdad?
+Ah... I would appreciate you not painting over my chamber walls. Feel free to do so outside of it, but I require clear walls to project holographic graphs over. Your art, as beautiful as it is, might distort them.|Ah... te agradecería que no pintaras por las paredes de mi cámara. Siéntete libre de hacerlo por la parte de afuera,<LINE>es solo que las necesito limpias para poder proyectar holografías. Tu arte, por muy hermoso que sea, podría distorsionarlos.
+I already told you to not paint over my chamber walls. I'm sure you can find plenty of significantly better canvas outside of my chamber, and I don't want to have to destroy your hard work, so please do so outside.|Ya te dije que no pintaras sobre las paredes de mi cámara. Estoy segura de que puedes encontrar suficientes y mejores<LINE>lienzos fuera, y no quiero tener que destruir tu arduo trabajo, así que, por favor, hazlo afuera.
+Are you ignoring my request on purpose? Please paint outside.|¿Estás ignorando adrede mi solicitud? Por favor, pinta afuera.
+Little friend, I truly need my walls clean for my systems to work correctly. Please stop.|Amiguito, en serio, necesito mis paredes limpias para que mis sistemas funcionen correctamente. Por favor, para.
+You are wasting your materials. Your paintings cannot stay here. Please listen.|Estás desperdiciando tus materiales. Tus pinturas no pueden quedarse aquí. Por favor, escucha.
+As for what I was saying before you rudely interrupted me...|Con respecto a lo que estaba diciendo antes de que me interrumpieras groseramente...
+Incredible. Thank you.|Increíble. Gracias.
+As I was saying...|Con respecto a lo que estaba diciendo...
+...|...
+...Ah. I see you did not appreciate my gift for you.|... Ah. Veo que no te agradó mi regalo.
+I will accept your choice, though. It is not my place to judge, as disrespectful as it felt to my efforts.|Pero aceptaré tu elección. No me corresponde a mí juzgar, por muy irrespetuoso que parezca hacia mis esfuerzos.
+...What have you done?!|... ¡¿Qué has hecho?!
+So much data lost... Please leave.|Tantos datos perdidos... Por favor, vete.
+...Little creature? Could you not use my data pearls to create your tools? I might not miss one or two, but I would like to save the information which is held within them.|... ¿Pequeña criatura? ¿Podrías no utilizar mis perlas de datos para crear tus herramientas?<LINE>Puede que no extrañe uno o dos, pero me gustaría guardar la información que contienen.
+Maybe you could find some empty pearls outside of my chamber, or use something else?|Quizás podrías encontrar algunas perlas vacías fuera de mi cámara o utilizar algo más.
+Little creature. I asked you once, please do not use my pearls as painting supplies. Losing data is very unpleasant, please find other materials.|Pequeña criatura. Te lo pedí una vez, no utilizes mis perlas como suministros de pintura.<LINE>Perder datos es muy molesto, por favor, encuentra otros materiales.
+Please stop destroying my data pearls. Find other materials.|Por favor, deja de destruir mis perlas de datos. Halla otros materiales.
+.  .  .|.  .  .
+And what do we have here, on the once-pristine walls of my chamber?|¿Y qué tenemos aquí en las paredes otrora inmaculadas de mi cámara?
+Is that ... scribble supposed to be me? Are those ... ears I'm wearing?|¿Se supone que ese garabato de ... soy yo? ¿Y que estoy llevando puesto ... orejas?
+I get the impression that you are proud of this, and I cannot understand why.|Tengo la impresión de que estás orgulloso de esto, y no puedo comprender el porqué.
+Is this really an accomplishment to celebrate? Terrorizing me with an atrocity like this?|¿De verdad esto es un logro del que celebrar? ¿Aterrorizándome con una atrocidad como esta?
+Someone must have put you up to this. Was it No Significant Harassment? His name has always been considerably ironic.|Alguién debió de haberte metido en esto. ¿Fue Acoso Sin Importancia? Su nombre siempre ha sido considerablemente irónico.
+. . .|. . .
+Your blank stare behind that ridiculous headpiece gives me no answers.|Tu mirada inexpresiva detrás de ese ridículo aparato en la cabeza no me da respuestas.
+It is simply laughable that a little beast climbed all the way up my exterior just to insult me in this way. I hope you realize that I am NOT<LINE>offended in any way, shape, or form. After all, I am a being who is, if you excuse me, godlike in compar-|Da gracia que una pequeña bestia haya trepado hasta mi exterior, solo para agraviarme. Espero que te percates de<LINE>que NO estoy ofendido en absoluto. Al cabo, soy un ser que, si me disculpas, es divino en compara...
+Please leave.|Por favor, sal.
+This is not a request. I have important work to do.|Esto no es una solicitud. Tengo labores importantes que hacer.
+Unfortunately, my operations are encoded with a restriction that prevents<LINE>me from carrying out violent actions against my own citizens.|Lamentablemente, mis operaciones están codificadas con una restricción que me impide<LINE>llevar a cabo acciones violentas contra mis propios ciudadanos.
+Please do not take advantage of this. I do not have the patience for your continued presence here.|Por favor, no te aproveches de esto. No tengo la paciencia para aguantar tu presencia constante.
+Did you not register what I've said to you?|¿No registraste lo que te dije?
+LEAVE.|VETE.
+I'm returning to my work. Unless you have anything productive<LINE>for me, I have nothing further to say to you.|Estoy volviendo a mi trabajo. A menos que tengas algo productivo<LINE>para mí, no tengo nada más que decirte.
+You disrespectful little cretin.|Pequeño cretino irrespetuoso.
+Get out of my sight! Do not return until you have accomplished something worthwhile.|¡Fuera de mi vista! No regreses hasta que hayas logrado algo que valga la pena.
+...Oh. That is an incredibly detailed piece of artwork, I see.|... Oh. Es una obra de arte increíblemente detallada, por lo que veo.
+As much as I am still quite unhappy about you painting on my chamber walls... I can’t help but admire your skill and determination, little friend.|Por más que esté muy disconforme contigo por pintar en las paredes de mi cámara...<LINE>debo admitir que admiro tu habilidad y determinación, amiguito.
+You likely spent a lot of time learning how to draw all those creatures, and your perseverance alone is incredibly admirable!|Problabemente has pasado mucho tiempo aprendiendo a cómo dibujar todas esas criaturas,<LINE>¡y tu perseverancia por sí sola es increíblemente admirable!
+Especially considering that you had to spend enough time near all of those dangerous predators to learn how they look... Truly admirable.|Teniendo en cuenta especialmente que tuviste que pasar bastante tiempo cerca<LINE>de aquellos peligrosos depredadores para memorizar cómo se ven... Verdaderamente loable.
+You must’ve traveled and seen quite a lot in your life, didn’t you?|Has debido haber viajado y visto muchas cosas en tu vida, ¿no es así?
+I feel so incredibly regretful about having to erase it, even if I need my walls clean...|Me siento sumamente arrepentida de tener que borrarla, incluso si necesito limpiar mis paredes...
+...Would you like me to immortalize it for you? I could take a picture and print it inside a pearl for you. You might not be able to read it, but if you give it to me, I could project the mural a second time through holograms.|... ¿Quieres que te la inmortalice? Puedo tomarle una foto e imprimirla dentro de una perla.<LINE>No podrás leerla, pero si me la das, podría proyectar el mural por segunda vez a través de hologramas.
+That seems like a good idea, doesn’t it?|Parece una buena idea, ¿no?
+Come back next cycle, and I will have it done by then.|Regresa el próximo ciclo y la habré terminado para entonces.
+Now let me take a look...|Ahora déjame echar un vistazo...
+That is... surely an interesting piece of art. Although I would highly prefer not to see it. As Five Pebbles' senior and close neighbor, it feels disrespectful to have such images of him on my chamber walls.|Esa es una obra... muy interesante de arte. Aunque yo preferiría no verla. Como vecina cercana y superior<LINE>de Cinco Guijarros, me parece una falta de respeto tener tales imágenes de él en las paredes de mi cámara.
+I apologize, but I have to remove it.|Lo lamento, pero tengo que quitarlas.
+Ah... I see you do not enjoy the presence of our overseers? Despite your distaste for them, I would appreciate it if you did not advocate for violence against beings that are a part of me.|Ah... Veo que no te gusta la presencia de nuestros supervisores.<LINE>Pese a tu desagrado por ellos, te agradecería que no abogaras por la violencia contra los seres que forman parte de mí.
+They are our eyes, after all, and scavengers already hunt them plenty without your guidance.|Ellos son nuestros ojos, después de todo, y los carroñeros ya los cazan a menudo sin tu guía.
+Do not encourage them further.|No los incentives más de lo que están.
+Little creature, how did you manage to replicate the exact likeness of one of our neighboring iterators so well? Have you traveled from afar, or is it a lucky coincidence?|Criaturita, ¿cómo lograste replicar tan bien la imagen de uno de nuestros iteradores vecinos? ¿Has viajado desde muy lejos o es pura casualidad?
+This particular piece is... Surely interesting. I am unsure of the meaning of it, but I can freely admit I do not enjoy the implications.|Esta pieza particular es... muy interesante. No estoy segura de su significado, pero puedo con toda confianza admitir que no me complacen las implicaciones.
+It is a picture of you. Are you trying to ensure that I remember you forever by putting portraits of yourself over my walls?|Es una dibujo de ti. ¿Estás tratando de asegurarte de que te recuerde para siempre, poniendo retratos tuyos en mis paredes?
+I do have to admit that your ability to capture bodies in motion is incredible. However... I would rather keep my walls clean, please.|Debo admitir que tu habilidad de capturar cuerpos en movimiento es increíble. Sin embargo... prefiero mantener mis paredes limpias, gracias.
+The creature that you drew is oddly shaped. Is it based on anything in particular?|La criatura que dibujaste tiene una forma rara. ¿Está basada en algo en particular?
+...I do not enjoy the look of this piece of art. The implications might be not intended, but I will be removing it from my walls despite that.|... No me gusta el estilo de esta obra de arte. Las implicaciones pueden no ser intencionadas, pero aun así la voy quitar de mis paredes.
+I find it impressive how well you adapt to various painting styles. I think Pebbles would like this one. It reminds me of an ancient piece of art which symbolizes unity of all existing things within the cycle.|Encuentro impresionante lo bien que te adaptas a diferentes estilos pictóricos. Creo que a Guijarros le gustaría esta.<LINE>Me recuerda a una obra de arte antigua que simboliza la unidad de todas las cosas existentes dentro del ciclo.
+Did you know about it when you painted it?|¿Sabías de ella cuando la pintaste?
+I see that you had the unfortunate pleasure of meeting a Miros Bird? I do not advise you to continue visiting the area where they live.|Veo que has tenido el desafortunado placer de encontrarte con un Pájaro Miró. No te aconsejo que sigas visitando el área en el que viven.
+The memory crypts were considered sacred ground by my creators, which is the reason behind the existence of those beings. They are incredibly vicious, aggressively protecting the wealth of those laid to rest underneath.|Las criptas de los recuerdos fueron consideradas suelo sagrado por mis creadores, motivo por el cual existen aquellos seres.<LINE>Ellos son increíblemente feroces y protegen agresivamente la riqueza de quienes fueron llevados al reposo debajo.
+Due to the nature of this art piece... I suppose you already know of their weakness to harsh light? I'm glad it helped you get past them safely.|Debido a la naturaleza de esta obra... asumo que ya conoces su debilidad ante la luz intensa. Me alegro de que te haya ayudado a atraversarlos de forma segura.
+I suppose living in near-constant darkness does make even purposed organisms have weaknesses.|Supongo que vivir en la oscuridad casi constante hace que incluso los organismos propuestos tengan debilidades.
+That is... Such an interesting depiction of one of many purposed organisms used for recycling waste materials. Is that a spear, stuck to the back of their head?|Esa es una... muy interesante representación de uno de los muchos organismos propuestos usados para reciclar residuos. ¿Esa es una lanza clavada en la parte trasera de su cabeza?
+...Is this picture based on first-hand experience?|... ¿Este dibujo está basado en una experiencia de primera mano?
+Those beings can hold grudges for quite a while. I don't envy you, little friend.|Esos seres pueden guardar resentimiento durante mucho tiempo. No te envidio, amiguito.
+Such an accurate depiction of a little creature! Did you know that they have much stronger muscles within their tails than any other creature? Such interesting purposed organisms!|¡Vaya representación tan precisa de una pequeña criatura! ¿Sabías que ellos tienen músculos mucho<LINE>más fuertes en la cola que cualquier otra criatura? ¡Qué organismos propuestos tan interesantes!
+I wish I could keep this art piece up, but unfortunately, I have to keep my walls clean.|Desearía poder conservar esta obra, pero, lamentablemente, tengo que mantener mis paredes limpias.
+I apologize once again.|Me disculpo una vez más.
+...Is that a squidcada covered by bread?|... ¿Esa es una calamigarra cubierta de pan?
+I suspect that Five Pebbles' overseers still broadcast quick meal ads, despite the audience being long since gone. Have you gotten your inspiration from there?|Intuyo que los supervisores de Cinco Guijarros aún emiten anuncios de comida rápida, a pesar<LINE>de que la audiencia haya desaparecido desde hace mucho. ¿Te has inspirado de ahí?
+I do find this depiction amusing. I might even send it to a few friends, if you don't mind...?|Esta representación sí que me parece graciosa. Puede que inclusive la envíe a algunos amigos, si no te molesta...
+Is it the face of a particular scavenger you met on your travels, or did you take artistic liberty with the depiction?|¿Es el rostro de un carroñero en particular que te encontraste en tus viajes o te tomaste libertades artísticas con la representación?
+I'm sure they would enjoy having the portrait somewhere they could actually see it, little friend.|Estoy segura de que él disfrutaría tener el retrato en algún lugar donde lo pudiera ver, amiguito.
+I don't even know what to think of this...|No sé ni qué pensar...
+What prompted you to come up with such a concept?|¿Qué te ha provocado para idear semejante concepto?
+What a pleasing picture! The colors are quite vibrant and work together well.|¡Qué dibujo tan bonito! Los colores son muy vivos y combinan bien.
+Is this Five Pebbles' city, viewed from afar?|¿Esta es la ciudad de Cinco Guijarros vista desde muy lejos?
+I have a feeling he would enjoy this one... If it was painted over proper canvas, and not my chamber walls.|Tengo la sensación de que a él le gustaría... si estuviera pintada sobre un lienzo adecuado y no en las paredes de mi cámara.
+...What a poor little thing! This creature looks very sad.|... ¡Pobre cosita! Esta criatura se ve muy triste.
+Is it just how you view those organisms, or is it based on something? Maybe you are silently projecting your feelings onto them?|
+CLOSE|CERRAR
+PAGE|PÁGINA
+Player |Jugador 
+Shuffling between designs randomly|Pintando diseños de forma aleatoria
+Spraying this design repeatedly|Pintando este diseño repetidas veces
+Spraying this design once then shuffling|Pintando este diseño una vez, luego aleatorizar
+Hold (|Mantén pulsado (
+ + | + 
+) while carrying a rock and colorful object (pearls, fruit, etc.) to craft a Spray Can.|) mientras llevas una roca y un objeto colorido (perlas, frutas, etc.) para fabricar un Aerosol.
+Different objects produce different levels of Spray Cans. You can also combine two Spray Cans, or upgrade one with another object.|Distintos objetos producen distintos niveles de Aerosol. También puedes combinar dos Aerosoles o mejorar uno con otro objeto.
+Press (|Pulsa (
+) while carrying a Spray Can to spend a charge and spray graffiti.|) mientras llevas un Aerosol para gastar una carga y pintar un grafiti.
+) while in midair and carrying a Spray Can to spend a charge and spray graffiti.|) mientras estás en el aire y llevas un Aerosol para gastar una carga y pintar un grafiti.
+You can also damage some creatures by spraying them.|También puedes rociar a criaturas para causarles daño.
+Throwing a Spray Can will create a large, non-lethal explosion of compressed paint.|Lanzar un Aerosol creará una gran explosión no letal de pintura comprimida.
+The more charages a Spray Can has, the more force the explosion will have. (The max charges of a Spray Can is 5)|Cuantas más cargas tenga un Aerosol, más fuerte será la explosión. (La carga máxima es de 5.)
+The hologram-like visions show where you need to spray in order to pursue your goal.|Las visiones que se parecen a hologramas muestran dónde debes pintar para llevar a cabo tu meta.
+Some large pieces may require you to spray from multiple positions.|Algunas puede que necesiten pintarse en múltiples posiciones si llegan a ser demasiado grandes.
+It appears that Five Pebbles might not tolerate your graffiti being anywhere near him. Search for better spots elsewhere.|Parece que Cinco Guijarros no tolera que tus grafitis estén cerca de él. Busca mejores sitios en otro lugar.
+... in a future update.|... en una futura actualización.
+) while moving atop a horizontal beam or climbing a vertical pole to grind.|) para grindar por una barra horizontal o un poste vertical.
+While grinding atop a horizontal beam, jump to execute a trick jump.|Mientras grindas por una barra horizontal, salta para ejecutar un Salto Truco.
+While grinding up a vertical pole, hold jump to trick jump off the top of the pole.|Mientras grindas por un poste vertical, mantén pulsado Saltar para hacer un Salto Truco desde la parte superior del poste.
+) while falling to catch a horizontal beam with your feet and continue grinding.|) mientras caes para alcanzar una barra horizontal con los pies y seguir grindando.
+You can hold down to fall off a beam, then let go to catch another beam.|Puedes mantener pulsado Abajo para dejarte caer de una barra y luego soltarlo para seguir grindando en otra.
+By jumping at the very end of a beam, you will Coyote Jump. This gives you even more jump height and speed.|Si saltas justo al final de una barra, harás un Salto de Coyote. Esto te dará aún más altura y velocidad de salto.
+You can execute a similar boost by falling from grinding a beam, and jumping right when you land on the ground.|Para obtener un efecto similar, puedes dejarte caer tras grindar por una barra y saltar justo en el aterrizaje.
+Options|Opciones
+Credits|Créditos
+Vinki Graffiti|Grafitis de Vinki
+Unlockables|Desbloqueables
+Other Graffiti|Otros grafitis
+Gameplay|Jugabilidad
+Visuals|Elementos visuales
+Graffiti Files|Archivos de grafitis
+Open Graffiti Folder|Abrir carpeta de grafitis
+Click to open the Graffiti Folder in your file explorer for easily adding custom graffiti|Haz clic para abrir la carpeta de grafitis en tu explorador de archivos y añadir fácilmente grafitis personalizados.
+Require Spray Cans for Graffiti|Requerir aerosoles para los grafitis
+Requires a spray can to spray graffiti on the background (craft a can with a rock and a colorful item).|Para pintar grafitis en el fondo se requerirá un aerosol (fabrica uno con una roca y un objeto colorido).
+Require Spray Cans for Tagging|Requerir aerosoles para rociar
+Requires a spray can to tag creatures (craft a can with a rock and a colorful item).|Para rociar a criaturas se requerirá un aerosol (fabrica uno con una roca y un objeto colorido).
+Require Graffiti Mode Button for Controls|Requerir el botón de modo grafitis para los controles
+Use the Graffiti Mode button when crafting, spraying, and tagging. Disable if you have custom bindings and don't like having to press two buttons to perform these abilities.|Usar el botón de modo grafitis al fabricar, pintar y rociar. Desactívelo si tienes botones personalizados y no te gusta tener que pulsar dos botones para realizar estas habilidades.
+Use Up as Graffiti Mode|Utilizar arriba para el modo grafitis
+Use the Up direction for Graffiti Mode (in addition to the normal binding).|Utilizar el direccional arriba para el modo grafitis (además del botón normal).
+Tagging Damages Jolly Players|Rociar casua daño a jugadores de Jolly Co-op
+Tagging a player while in Jolly Coop does damage.|Rociar causará daño a los jugadores con el Jolly Co-op activado.
+Graffiti Tokens in Any Campaign|Fichas de grafitis en cualquier campaña
+Be able to collect the unlockable graffiti tokens in campaigns besides Vinki's (excluding Saint)|Poder recolectar las fichas de grafitis desbloqueables fuera de la campaña de Vinki (a excepción del Santo).
+Automatically Open Quest Map|Abrir automáticamente el mapa de objetivos
+Automatically open the quest map after a cycle where you spray a new story graffiti. Disable if you want to speedrun|Abrir automáticamente el mapa de objetivos después de un ciclo en el que pintas un nuevo grafiti del modo Historia. Desactívelo si quieres hacer un speedrun.
+Wear Glasses Over DMS Skin|Usar las gafas sobre la skin de DMS
+Wear Vinki's glasses on top of the current DMS skin for Vinki. Only works if you have DMS enabled.|Usar las gafas de Vinki sobre la skin de DMS actual de Vinki. Solo funciona si tienes el mod Dress My Slugcat activado.
+Graffiti Display Cycles|Ciclos de visualización de grafitis
+How many cycles sprayed graffiti should last (excludes story-related graffiti). Use -1 for infinite cycles.|Cuántos ciclos pueden prevalecer los grafitis pintados (excluye los grafitis del modo historia). Utiliza -1 para ciclos infinitos.
+Delete Graffiti Permanently After Display Cycles|Borrar los grafitis después de los ciclos de visualización
+Delete Graffiti permanently when running out of display cycles. Will help with loading times if you've sprayed a lot of graffiti.|Borrar permanentemente los grafitis al terminarse los ciclos de visualización. Ayudará con los tiempos de carga si has pintado muchos grafitis.
+Restore Default Graffiti when Mod Updates|Restaurar los grafitis predeterminados cuando el mod se actualize
+Skip Intro and Tutorials|Omitir la intro y los tutoriales
+When starting a new game skip the campaign intro and tutorials and start at the top of The Wall.|Al iniciar una nueva partida, omitir la introducción de la campaña, los tutoriales y empezar en lo alto de El Muro.
+Restore default graffiti when the mod updates to a new version. Helpful to automatically add any new graffiti from updates.|Restaurar los grafitis predeterminados cuando el mod se actualize a una nueva versión. Útil para añadir automáticamente cualquier grafiti nuevo de las actualizaciones.
+Restore Default Graffiti|Restaurar los grafitis
+Restore the default graffiti that came with The Vinki. Useful for after installing an update that includes new default graffiti.|Restaurar los grafitis predeterminados que vinieron con el mod de Da Vinki. Útil para cuando se instale una nueva actualización que incluye nuevos grafitis predeterminados.
+Reset Graffiti Folder to Default|Reiniciar la carpeta de grafitis
+Revert Graffiti Folder to default. This will remove any custom graffiti you've added to it!|Revertir la carpeta de grafitis a la predeterminada. ¡Esto borrará cualquier grafiti personalizado que hayas añadido!
+Art|Arte
+Coding|Programación
+Cursed Art|Arte extraño
+Level Editing|Edición de niveles
+Music|Música
+Sound Effects|Efectos de sonido
+Writing|Escritura
+Special Thanks|Agradecimientos especiales
+Developers of this mod's dependencies|Desarrolladores de las dependencias de este mod
+“|«
+”|»
+by |de 
+Unlock All Graffiti|Desbloquear todos los grafitis
+Unlock every graffiti. Useful if your game is bugged or you had to reset your Graffiti folder.|Desbloquear cada grafiti. Útil si tu juego está bugueado o si tienes que reiniciar tu carpeta de grafitis.
+Reset All Unlockables|Reiniciar todos los desbloqueables
+Reset all unlockable graffitis to be locked from use.|Reiniciar todos los grafitis desbloqueables para que estén bloqueadas y no se puedan usar.
+Next Page|Siguiente página
+Last Page|Página anterior
+Misc.|Miscelánea
+Escort|Escolta
+Gravel-Eater|Comegrava
+Five Pebbles (Research and Development)|Cinco Guijarros (Investigación y Desarrollo)

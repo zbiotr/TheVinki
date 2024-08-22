@@ -3,10 +3,10 @@ fp1
 
 Sigues al gato-babosa por un pasillo y te encuentras en una gran habitación cuadrada.
 Hay un robot divino colgado en medio de la sala.
-«Yoo, ¿qué onda, Cinco Pebsijarros? ¡Traje a un nuevo homie que es extraordinariamente bueno con sus habilidades artísticas!».
-«Oh, por el amor de... ¿No te había dicho que te fueras y nunca regresaras?
+«Yoo, ¿qué onda, Cinco Pepsijarros? ¡Traje a un nuevo homie que es extraordinariamente bueno con sus habilidades artísticas!».
+«Oh, por el amor de... ¿No te había dicho que te fueras y nunca volvieras?
 Como sea, terminemos con esto para que puedas dejarme en paz».
-«¡Desde luego, Cinco Cigarros! ¡Yoo, amigo, mira cómo este geek sin gravedad se enloquece cuando vea esto!».
+«¡Desde luego, Cinco Callaos! ¡Yoo, amigo, mira cómo este geek sin gravedad se enloquece cuando vea esto!».
 
 Observar.
 up_create3.txt
