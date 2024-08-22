@@ -1,5 +1,6 @@
 ﻿using Menu;
 using Menu.Remix.MixedUI;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using UnityEngine;
@@ -20,6 +21,7 @@ namespace Vinki
         public static Configurable<bool> UseGraffitiButton;
         public static Configurable<bool> TokensInEveryCampaign;
         public static Configurable<bool> AutoOpenMap;
+        public static Configurable<bool> SkipIntro;
 
         private static OpHoldButton unlockButton;
         private static OpHoldButton lockButton;
@@ -73,6 +75,10 @@ namespace Vinki
             [
                 Translate("Restore Default Graffiti when Mod Updates")
             ]));
+            SkipIntro = config.Bind("skipIntro", false, new ConfigurableInfo(Translate("When starting a new game skip the campaign intro and tutorials and start at the top of The Wall."), tags:
+            [
+                Translate("Skip Intro and Tutorials")
+            ]));
         }
 
         public static void RegisterOI()
@@ -95,37 +101,43 @@ namespace Vinki
             ];
 
             // Options tab
-            AddDivider(593f);
-            AddTitle(0);
-            AddDivider(557f);
-            AddTitle(0, Translate("Gameplay"), 510f);
-            AddCheckbox(RequireCansGraffiti, 480f);
-            AddCheckbox(RequireCansTagging, 450f);
-            AddCheckbox(UseGraffitiButton, 420f);
-            AddCheckbox(UpGraffiti, 390f);
-            AddCheckbox(TagDamageJolly, 360f);
-            AddCheckbox(TokensInEveryCampaign, 330f);
-            AddCheckbox(AutoOpenMap, 300f);
-            AddTitle(0, Translate("Visuals"), 245f);
-            AddCheckbox(GlassesOverDMS, 215f);
-            AddIntBox(GraffitiFadeTime, 185f);
-            AddCheckbox(DeleteGraffiti, 155f);
-            AddTitle(0, Translate("Graffiti Files"), 100f);
-            AddCheckbox(RestoreGraffitiOnUpdate, 70f);
+            AddTitle(0, Translate("Gameplay"), 590f);
+            AddCheckbox(RequireCansGraffiti, 560f);
+            AddCheckbox(RequireCansTagging, 530f);
+            AddCheckbox(UseGraffitiButton, 500f);
+            AddCheckbox(UpGraffiti, 470f);
+            AddCheckbox(TagDamageJolly, 440f);
+            AddCheckbox(TokensInEveryCampaign, 410f);
+            AddCheckbox(AutoOpenMap, 380f);
+            AddCheckbox(SkipIntro, 350f);
+            AddTitle(0, Translate("Visuals"), 295f);
+            AddCheckbox(GlassesOverDMS, 265f);
+            AddIntBox(GraffitiFadeTime, 235f);
+            AddCheckbox(DeleteGraffiti, 205f);
+            AddTitle(0, Translate("Graffiti Files"), 150f);
+            AddCheckbox(RestoreGraffitiOnUpdate, 120f);
+            AddButton(
+                Translate("Open Graffiti Folder"),
+                Translate("Click to open the Graffiti Folder in your file explorer for easily adding custom graffiti"),
+                OpenGraffitiFolder,
+                80f,
+                200f,
+                x: 200f
+            );
             AddHoldButton(
                 Translate("Restore Default Graffiti"),
                 Translate("Restore the default graffiti that came with The Vinki. Useful for after installing an update that includes new default graffiti."),
                 RestoreDefaultGraffiti,
-                0f,
+                45f,
                 200f,
                 40f,
                 x: 50f
             );
             AddHoldButton(
                 Translate("Reset Graffiti Folder to Default"),
-                Translate("Revert Graffiti Folder to default. This will remove any custom files you've added to it!"),
+                Translate("Revert Graffiti Folder to default. This will remove any custom graffiti you've added to it!"),
                 ResetGraffitiFolder,
-                0f,
+                45f,
                 200f,
                 color: Color.red,
                 x: 350f
@@ -152,7 +164,7 @@ namespace Vinki
             AddSubtitle(60f, Translate("Special Thanks"), 1);
             AddText(25f, Translate("Developers of this mod's dependencies") + "\n" +
                 "Abigail    a doku    AxoTheAxolotl    Azura Hardware    banba fan   BreadwardBolero    BUGS    Doop    goof\n" +
-                "Johnn    Nico    Rae    Sadman    Salami_Hunter    skrybl    Sunbloom    SunnyBeam    TacticalBombs\n",
+                "Johnn    Nico    Rae    Repeat    Sadman    Salami_Hunter    skrybl    Sunbloom    SunnyBeam    TacticalBombs    Vinyla\n",
             1);
 
             // Vinki Graffiti tab
@@ -330,6 +342,23 @@ namespace Vinki
             ]);
         }
 
+        private OpSimpleButton AddButton(string displayName, string description, OnSignalHandler action, float y, float width, Color? color = null, int tab = 0, float x = 150f)
+        {
+            OpSimpleButton button = new(new Vector2(x, y), new Vector2(width, 30f), Translate(displayName))
+            {
+                description = Translate(description),
+                colorEdge = color ?? MenuColorEffect.rgbMediumGrey,
+            };
+            button.OnClick += action;
+
+            Tabs[tab].AddItems(
+            [
+                button
+            ]);
+
+            return button;
+        }
+
         private OpHoldButton AddHoldButton(string displayName, string description, OnSignalHandler action, float y, float width, float fillTime = 80f, Color? color = null, int tab = 0, float x = 150f)
         {
             OpHoldButton holdButton = new(new Vector2(x, y), new Vector2(width, 30f), Translate(displayName), fillTime)
@@ -364,6 +393,27 @@ namespace Vinki
         {
             Directory.Delete(Plugin.graffitiFolder, true);
             RestoreDefaultGraffiti(trigger);
+        }
+
+        private void OpenGraffitiFolder(UIfocusable trigger)
+        {
+            ModManager.Mod mod = ModManager.ActiveMods.Find((mod) => mod.id == Plugin.MOD_ID);
+
+            if (mod == null)
+            {
+                Plugin.VLogger.LogError("Couldn't find Vinki mod in list of active mods!");
+            }
+
+            Plugin.VLogger.LogMessage("Opening \"" + Plugin.graffitiFolder + "\" in file explorer");
+            if (Directory.Exists(Plugin.graffitiFolder))
+            {
+                Process.Start(new ProcessStartInfo()
+                {
+                    FileName = Plugin.graffitiFolder,
+                    UseShellExecute = true,
+                    Verb = "open"
+                });
+            }
         }
 
         private void UnlockAllGraffiti(UIfocusable trigger)
