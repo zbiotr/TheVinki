@@ -2,8 +2,8 @@ vk-hype-flip
 graffiti
 
 El gato-babosa naranja empieza a pintar a un ritmo demencial.
-Le toma solo unos segundos terminar el grafiti. Se ve precioso.
-«Pues ¿qué te parece esto, bajito?».
+Le toma solo unos pocos segundos en terminar el grafiti. Se ve precioso.
+«Pues, ¿qué te parece esto, bajito?».
 
 «Eso es... Guau».
 up_create4.txt
