@@ -113,7 +113,7 @@ namespace Menu
 
             string[] graffitiFiles;
             string lowerScugClass = players[currentPlayer].SlugCatClass.ToString().ToLowerInvariant();
-            Plugin.VLogger.LogInfo("Graffiti scugs: " + string.Join(", ", Plugin.graffitis.Keys));
+            //Plugin.VLogger.LogInfo("Graffiti scugs: " + string.Join(", ", Plugin.graffitis.Keys));
             if (Plugin.graffitis.ContainsKey(lowerScugClass))
             {
                 graffitiFiles = Plugin.graffitis[lowerScugClass].Select(g => "decals/" + g.imageName).ToArray();
@@ -206,7 +206,7 @@ namespace Menu
             previewSprite.y = roundedRects[1].DrawY(1f) + (roundedRects[1].size.y / 2);
             roundedRects[1].Container.AddChild(previewSprite);
 
-            previewLabel.text = spritePath.Substring(spritePath.LastIndexOf(System.IO.Path.DirectorySeparatorChar) + 1);
+            previewLabel.text = spritePath.Substring(spritePath.LastIndexOf('/') + 1);
         }
 
         private static float GetCancelButtonWidth(InGameTranslator.LanguageID lang)
@@ -325,7 +325,7 @@ namespace Menu
 
         public override void Update()
         {
-            Plugin.VLogger.LogInfo("Selectables: " + pages[0].selectables.Count() + "\tSubObjects: " + pages[0].subObjects.Count());
+            //Plugin.VLogger.LogInfo("Selectables: " + pages[0].selectables.Count() + "\tSubObjects: " + pages[0].subObjects.Count());
             base.Update();
             lastAlpha = currentAlpha;
             currentAlpha = Mathf.Lerp(currentAlpha, targetAlpha, 0.2f);

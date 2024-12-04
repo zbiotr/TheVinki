@@ -53,6 +53,12 @@ namespace Vinki
                 {
                     miscWorldSave.Set("StoryGraffitisOnMap", storyGraffitisOnMap);
                 }
+
+                // Decrement blueCycles from Moon easter egg
+                if (Plugin.blueCycles > 0)
+                {
+                    Plugin.blueCycles--;
+                }
             }
         }
 
@@ -81,6 +87,8 @@ namespace Vinki
             ApplyRegionGateHooks();
             ApplyAbstractCreatureHooks();
             ApplyMusicHooks();
+            ApplyCollectiblesTrackerHooks();
+            ApplyRainWorldHooks();
         }
 
         public static void RemoveHooks()
@@ -108,6 +116,7 @@ namespace Vinki
             RemoveRegionGateHooks();
             RemoveAbstractCreatureHooks();
             RemoveMusicHooks();
+            RemoveCollectiblesTrackerHooks();
 
             RemoveMenuSceneHooks();
 
@@ -141,20 +150,20 @@ namespace Vinki
                     VLogger.LogInfo("Didn't find saved vinki mod version");
                     modChanged = true;
                 }
-                VLogger.LogInfo("Setting vinki version to " + vinkiMod.version);
+                VLogger.LogInfo("Vinki mod version is " + vinkiMod.version);
                 saveData.Set("VinkiVersion", vinkiMod.version);
                 rainWorld.progression.SaveProgression(false, true);
             }
             else
             {
-                VLogger.LogInfo("Can't find vinki mod ID");
+                VLogger.LogError("Can't find vinki mod ID");
             }
 
             graffitiFolders = AssetManager.ListDirectory(baseGraffitiFolder, true, true, true);
             mainGraffitiFolder = AssetManager.ResolveDirectory(storyGraffitiFolder + "/../VinkiGraffiti");
             storyGraffitiFolder = AssetManager.ResolveDirectory(storyGraffitiFolder);
 
-            VLogger.LogInfo("Graffiti folders: " + string.Join("; ", graffitiFolders));
+            //VLogger.LogInfo("Graffiti folders: " + string.Join("; ", graffitiFolders));
 
             // If the graffiti folder doesn't exist (or is empty), copy it from the mod
             if (!Directory.Exists(mainGraffitiFolder) || !Directory.EnumerateDirectories(mainGraffitiFolder).Any() ||
@@ -174,6 +183,7 @@ namespace Vinki
             VinkiConfig.RegisterOI();
 
             // Get sprite atlases
+            Futile.atlasManager.LoadImage("Kill_Slugcat_vinki");
             Futile.atlasManager.LoadAtlas("atlases/SprayCan");
             Futile.atlasManager.LoadAtlas("atlases/glasses");
             Futile.atlasManager.LoadAtlas("atlases/rainpods");
@@ -237,7 +247,7 @@ namespace Vinki
         {
             PlacedObject.CustomDecalData decal = new(null)
             {
-                imageName = "VinkiGraffiti/" + slugcat + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(image),
+                imageName = "VinkiGraffiti/" + slugcat + '/' + Path.GetFileNameWithoutExtension(image),
                 fromDepth = 0.2f
             };
 
@@ -266,7 +276,7 @@ namespace Vinki
             }
             else
             {
-                VLogger.LogInfo("Adding new reqular graffiti: " + baseGraffitiFolder + Path.DirectorySeparatorChar + slugcat + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(image) + ".png");
+                //VLogger.LogInfo("Adding new reqular graffiti: " + baseGraffitiFolder + Path.DirectorySeparatorChar + slugcat + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(image) + ".png");
                 filePath = AssetManager.ResolveFilePath(baseGraffitiFolder + Path.DirectorySeparatorChar + slugcat + Path.DirectorySeparatorChar + Path.GetFileNameWithoutExtension(image) + ".png");
 
                 // Add to futile atlas for sprite to show in graffiti selector
@@ -564,15 +574,15 @@ namespace Vinki
 
             if (!difference.Any())
             {
-                VLogger.LogInfo("All files in Unlockables are also contained in VinkiGraffiti/vinki.");
+                //VLogger.LogInfo("All files in Unlockables are also contained in VinkiGraffiti/vinki.");
                 return true;
             }
             else
             {
-                VLogger.LogInfo("The following files in Unlockables are not contained in VinkiGraffiti/vinki:");
+                //VLogger.LogInfo("The following files in Unlockables are not contained in VinkiGraffiti/vinki:");
                 foreach (string file in difference)
                 {
-                    VLogger.LogInfo(file);
+                    //VLogger.LogInfo(file);
                 }
                 return false;
             }
@@ -588,16 +598,16 @@ namespace Vinki
 
             if (commonFiles.Any())
             {
-                VLogger.LogInfo("The following files are present in both directories:");
+                //VLogger.LogInfo("The following files are present in both directories:");
                 foreach (string file in commonFiles)
                 {
-                    VLogger.LogInfo(file);
+                    //VLogger.LogInfo(file);
                 }
                 return true;
             }
             else
             {
-                VLogger.LogInfo("No common files found.");
+                //VLogger.LogInfo("No common files found.");
                 return false;
             }
         }

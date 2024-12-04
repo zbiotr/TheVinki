@@ -15,7 +15,7 @@ namespace Vinki
     [BepInDependency("dressmyslugcat", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("improved-input-config", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("pushtomeow", BepInDependency.DependencyFlags.SoftDependency)]
-    [BepInPlugin(MOD_ID, "The Vinki", "0.12.12")]
+    [BepInPlugin(MOD_ID, "The Vinki", "0.12.15")]
     class Plugin : BaseUnityPlugin
     {
         public const string MOD_ID = "olaycolay.thevinki";
@@ -45,6 +45,7 @@ namespace Vinki
         ];
         public static List<MenuDepthIllustration> rotatingGhost = [];
         public static bool diedLastCycle = false;
+        public static int blueCycles = 0;
 
         public static bool improvedInput;
         public static Array improvedControls;
@@ -64,13 +65,13 @@ namespace Vinki
         public void OnEnable()
         {
             VLogger = Logger;
-            VLogger.LogInfo("OnEnable\n" + StackTraceUtility.ExtractStackTrace());
+            //VLogger.LogInfo("OnEnable\n" + StackTraceUtility.ExtractStackTrace());
             Hooks.ApplyInit();
         }
 
         public void OnDisable()
         {
-            VLogger.LogInfo("OnDisable\n" + StackTraceUtility.ExtractStackTrace());
+            //VLogger.LogInfo("OnDisable\n" + StackTraceUtility.ExtractStackTrace());
             if (restartMode) {
                 Hooks.RemoveHooks();
             };
