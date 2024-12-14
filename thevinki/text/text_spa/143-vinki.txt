@@ -27,4 +27,4 @@ PEBBLESWAIT : 20
 
 0 : Dado que parece que tienes dificultades para seguir mis instrucciones, reitero: viaja al este del Duodécimo Pilar del Consejo con forma de cúpula<LINE>y pinta tus garabatos por los carroñeros. Una vez que obtengas su confianza, convéncelos de que paren de destrozar mi estructura.<LINE>¿Lo entiendes? : 50
 
-0 : Ahora déjame volver a mi trabajo, criatura pícara. No deseo verte aquí de nuevo. : 30
+0 : Ahora déjame volver a mi trabajo, pícara criatura. No deseo verte aquí de nuevo. : 30

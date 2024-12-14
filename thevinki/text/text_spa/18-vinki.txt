@@ -1,6 +1,6 @@
 0-18-vinki
 Esta fue escrita por mí.
-Es sobre una iteradora llamada Brizna de Paja. La escribí hace mucho tiempo, aproximadamente cincuenta ciclos depués de<LINE>que la señal inicial fuese enviada. ¿Conoces a Brizna de Paja? Ella es muy legendaria entre nosotros.
+Es sobre una iteradora llamada Brizna de Paja. La escribí hace mucho tiempo, aproximadamente cincuenta ciclos después de<LINE>que la señal inicial fuese enviada. ¿Conoces a Brizna de Paja? Ella es muy legendaria entre nosotros.
 
 Brizna de Paja es la única que transmitió una señal específica: que el Gran Problema que todos estábamos trabajando<LINE>ha sido resuelto. La triple afirmativa; afirmativa de que una solución ha sido encontrada,<LINE>afirmativa de que la solución es portátil y afirmativa de que una implementación técnica es posible<LINE>y generalmente aplicable. Ella también es una de los pocos que ha sido confirmada como exhaustivamente<LINE>incapacitada o muerta. Nosotros no morimos fácilmente.
 
