@@ -3,7 +3,7 @@ vk1
 
 Sigues al gatobabosa naranja hasta el interior de la superestructura.
 Hay varios murales grandes, que parecen mostrar criaturas-pájaro, y paredes en blanco cerca.
-«Primero quiero tirar algo en esta pared que parece realmente tubular. Un segundo, tengo que marcarlo...».
+«Primero quiero tirar algo en esta pared que parece realmente tubular. Espérame un segundo».
 
 Observar.
 up_observe.txt
