@@ -1,5 +1,6 @@
 [FIND]¿Qué dirección quieres tomar?
 [ADDAFTER]\n
+[ADD_02]
 [FIND]Norte
 [ADDBEFORE_01]Arriba\nup_start.txt\n
 [FIND]RW_42 - Kayava
