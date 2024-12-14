@@ -3,9 +3,9 @@ vk-upset1
 
 «He estado gritando al vacío de tus inexistentes habilidades de comunicación por un largo rato,
 ¡¿y solo estabas escuchando ESO durante todo este tiempo?! ¿Cómo no tienes pérdida de audición por este revientaoídos?».
-«Yoo, escucha: ¿oíste hablar alguna vez sobre la cancelación de fase? Es como cuando los beats
-suenan tan fuerte que el sonido de un audífono viaja directo por mi cabeza hasta el otro oído
-y ¡bam! Se lleva gran parte de las vibras. Es como... si la lucha sónica fuese real, man».
+«Oye, escucha: ¿oíste hablar alguna vez sobre la cancelación de fase? Es como cuando los beats
+suenan tan fuerte que el sonido de un audífono viaja bien por la cabeza hasta el otro oído
+y ¡bam! Se lleva gran parte de las vibras. Es como... si la lucha sónica fuese real, amigo».
 
-«Seh, yo sin duda tuve una lucha en mi camino hacia acá».
+«Seh, yo sin duda tuve una lucha en mi camino hasta acá».
 up_comment1.txt

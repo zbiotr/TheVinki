@@ -1,0 +1,12 @@
+0-1234-vinki
+¡Hola, amiguito!
+
+Ahora, ¿qué trajiste aquí?... ¿Un dron de ciudadanía?
+
+¡Qué descubrimiento interesante! Parece que se ha autovinculado a ti al reactivarse, lo cual te permite<LINE>usar su identificación de ciudadanía. Me pregunto por qué ha ocurrido eso. Quizá tenga algo que ver con tu atuendo, que te hizo parecerte<LINE>bastante al dueño original como para que el escáner dañado te identifique erróneamente.
+
+¡Supongo que tenerlo te hace nuestro ciudadano!
+
+Parece estar desincronizado, pero es posible que pueda ayudarte con eso. Ingresaré el código requerido para activar la<LINE>puerta a mi ciudad, pero si deseas visitar la parte más alta de Cinco Guijarros, deberás pedirle a él el segundo código.
+
+SPECEVENT : resync

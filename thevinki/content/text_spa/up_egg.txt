@@ -1,9 +1,9 @@
 vk-determined-flip
 can
 
-Decides que es hora de mostrarle al gato-babosa que hablas en serio acerca de tu amor por él. Es hora de darle el huevo.
-«¡Vaya, mira esto! Es totalmente épico. ¡Este podría ser el aerosol más radical jamás creado! ¡Hagámoslo, amigo!».
-Toma el huevo y se lo traga junto con el aerosol vacío. Cuando obtiene el nuevo aerosol, se ve un poco extraño.
+Decides que es hora de mostrarle al gatobabosa que hablas en serio acerca de tu amor por él. Es hora de darle el huevo.
+«¡Guau, mira esto! Es totalmente épico. ¡Este podría ser el aerosol más radical jamás creado! ¡Hagámos esto, amigo mío!».
+Toma el huevo y se lo traga junto con el aerosol vacío. Cuando obtiene el aerosol nuevo se ve un poco extraño.
 «¡Se ve sensacional! ¡Pongamos a prueba a este chico malo!».
 
 Observar.

@@ -2,10 +2,10 @@ sm8
 vk-upset1
 
 Con tu puntería dominada por haber luchado contra ciempiés rojos y lagartos tren,
-golpeas justo la cosa en la oreja y el gato-babosa cae del poste del que estaba.
-«¡Yoo! ¡Tranqui, bravucón! Deja de molestarme y no te metas donde no te llaman.
-Solo estoy de chill mientras me llegan vibras de algunos temas pluviales, viejo».
-Puedes oír claramente la música reproduciéndose en la «cápsula pluvial» que dejó caer.
+golpeas justo la cosa en la oreja y el gatobabosa cae del poste del que estaba.
+«¡Eh! ¡Tranqui, bravucón! No me molestes y métete en lo tuyo.
+Solo estoy de chill mientras me llegan vibras de algunos temas pluviales, mano».
+Puedes oír claramente la música reproduciéndose en el audífono pluvial que dejó caer.
 
 Responder por tus acciones.
 up_answer.txt

@@ -1,9 +1,9 @@
 sm1
 vk1
 
-Sigues al gato-babosa naranja hasta el interior de la superestructura.
+Sigues al gatobabosa naranja hasta el interior de la superestructura.
 Hay varios murales grandes, que parecen mostrar criaturas-pájaro, y paredes en blanco cerca.
-«Primero quiero poner algo en esta pared que parece tubular. Un segundo, tengo que hacer una cosa...».
+«Primero quiero tirar algo en esta pared que parece realmente tubular. Un segundo, tengo que marcarlo...».
 
 Observar.
 up_observe.txt

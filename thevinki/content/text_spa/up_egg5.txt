@@ -3,10 +3,10 @@ fp4d_anim_1.0
 
 Parece que esta supercomputadora genio es incapaz de procesar lo que le está sucediendo al mundo. Qué irónico.
 «$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$».
-Tienes el presentimiento de que deberías irte, pero no puedes elegir una dirección ya que ahora hay muchas.
+Tienes la sensación de que deberías irte, pero no puedes elegir una dirección porque ahora hay muchas.
 Todo lo que te rodea muta tanto que tu cerebro empieza a negar la realidad circundante. ¿O quizás ya no es una realidad?
 Mientras luchas por encontrar tu lugar en este nuevo mundo, eres testigo de cómo
-el robot comienza a brillar de color blanco, haciendo que la luz se esparce y te ciegue.
+el robot comienza a brillar de color blanco, mientras la luz se esparce y te ciega.
 
 Cerrar los ojos.
 up_egg6.txt

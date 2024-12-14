@@ -2,9 +2,9 @@ sm9
 vk-upset
 
 «Yo solo intentaba ver si una pequeña roca podía atravesar la neblina cósmica que rodeaba tu cerebro».
-«Culpa mía, bro. No quería parecer como si te faltase el respeto, pero ¿pasa algo?, ¿qué necesitas?».
+«Culpa mía, bro. No quería parecer como si te faltase el respeto, pero ¿pasa algo?, ¿qué te urge?».
 
-«Necesito irrumpir las paredes de Cinco Guijarros».
+«Necesito atacar las paredes de Cinco Guijarros».
 up_breakfp.txt
 «Necesito una 1/2 naranja, UwU».
 up_soulmate.txt

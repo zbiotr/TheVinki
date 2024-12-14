@@ -1,0 +1,14 @@
+0-4321-vinki
+¡Hola, amiguito!
+
+Ahora, ¿qué trajiste aquí?... ¿Un dron de ciudadanía?
+
+¡Qué descubrimiento interesante! Parece que se ha autovinculado a ti, lo cual te permite usar su identificación de ciudadanía.<LINE>Me pregunto por qué ha ocurrido eso. Quizá tenga algo que ver con tu atuendo, que te hizo parecerte bastante<LINE>al dueño original como para que el escáner dañado te identifique erróneamente.
+
+¡Supongo que tenerlo te hace nuestro ciudadano!
+
+Me parece que Cinco Guijarros ya la ha vuelto a sincronizar a su estructura, otorgándote acceso a su ciudad.
+
+Lo justo sería que yo también lo conecte con la mía.
+
+SPECEVENT : resync

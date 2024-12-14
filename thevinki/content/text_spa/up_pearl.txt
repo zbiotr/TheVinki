@@ -1,7 +1,7 @@
 sm2
 fp1
 
-El gato-babosa recibe la perla que le diste y «fabrica» con ella. De pronto, el robot se expresa.
+El gatobabosa recibe la perla que le diste y «fabrica» con ella. De pronto, el robot se expresa.
 «Oh, demonios. Al parecer, un par de invasores han destruido uno de mis dispositivos de almacenamiento.
 ¿No les enseñaron en la escuela que eso no es algo bueno?».
 

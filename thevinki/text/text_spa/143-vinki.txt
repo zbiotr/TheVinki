@@ -1,0 +1,30 @@
+0-143-vinki
+0 : .  .  . : 60
+
+0 : Recuerdo haberte dado instrucciones específicas de que no regresaras, pequeña criatura. Sin embargo, aquí estás. : 60
+
+PEBBLESWAIT : 20
+
+0 : Mis supervisores me han estado informando constantemente de que uno de mis drones de identificación de ciudadanía se ha sintonizado contigo.<LINE>Aunque sus daños son extensos, soy capaz de volver a sincronizarlo con mi estructura. : 30
+
+Espero sinceramente que no me arrepienta de esto.
+
+SPECEVENT : resync
+
+0 : .  .  . : 60
+
+1000 : Mis supervisores me mostraron el vandalismo que tú consideras «arte». No hace falta decirte que<LINE>gran parte del mismo es abominable; no obstante, admito que hay algunas piezas que me llamaron la atención. : 30
+
+0 : Pareces ser realmente capaz de contar una historia, mas una egocéntrica. La que estás buscando<LINE>no se encuentra aquí, pero hay una alternativa. : 30
+
+0 : Una manada de carroñeros se han asentado en mi ciudad. Recientemente han intentado habitar la galería cubierta<LINE>al este del Duodécimo Pilar del Consejo. Sin embargo, han fracasado debido a las criaturas hostiles que casualmente se encuentran allí.<LINE>Puede que necesiten algo de ayuda. : 30
+
+PEBBLESWAIT : 20
+
+0 : Comprende que no te propongo esto por compasión, o siquiera por pena, pequeño roedor. Esos carroñeros<LINE>han estado causando una cantidad preocupante de daños a mi estructura en su búsqueda por armas de guerra contra<LINE>aquellas bestias. Simplemente espero que seas capaz de persuadirlos de que paren antes de que tome medidas más drásticas. : 30
+
+0 : .  .  . : 30
+
+0 : Dado que parece que tienes dificultades para seguir mis instrucciones, reitero: viaja al este del Duodécimo Pilar del Consejo con forma de cúpula<LINE>y pinta tus garabatos por los carroñeros. Una vez que obtengas su confianza, convéncelos de que paren de destrozar mi estructura.<LINE>¿Lo entiendes? : 50
+
+0 : Ahora déjame volver a mi trabajo, criatura pícara. No deseo verte aquí de nuevo. : 30

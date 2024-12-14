@@ -1,10 +1,10 @@
 sm2
 vk-hype
 
-«¡Radical! No pienso que yo sea un buen compinche, ¡pero creo que conozco a alguien que está
-totalmente interesado en ayudarnos a nosotros, los gato-babosas, y estaría más que encantado de conocerte!
+«¡Radical! No creo que yo sea un buen compinche, ¡pero creo conocer a alguien que está
+totalmente interesado en ayudarnos a nosotros, los gatobabosas, y estaría más que entusiasmado de conocerte!
 ¡Sígueme!». Parece que ha malinterpretado cuáles eran tus intenciones.
-Al parecer, la única opción es seguirle e intertarlo otra vez de alguna forma.
+Al parecer, la única opción es seguirle e intertarlo otra vez de alguna manera.
 
 Seguirle.
 up_follow.txt
