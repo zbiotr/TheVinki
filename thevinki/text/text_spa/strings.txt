@@ -10,6 +10,7 @@ Graffiti Mode|Modo grafiti
 Spray Graffiti|Pintar grafitis
 Craft Spray Can|Fabricar aerosoles
 Tag Creatures|Rociar a criaturas
+RESTART|REINICIAR
 SELECT GRAFFITI|ELEGIR GRAFITI
 QUEST MAP|OBJETIVOS
 View graffiti quest objectives and progress|Ver el mapa de objetivos y el progreso de la misión de grafitis
@@ -38,10 +39,11 @@ Little creature. I asked you once, please do not use my pearls as painting suppl
 Please stop destroying my data pearls. Find other materials.|Por favor, deja de destruir mis perlas de datos. Encuentra otros materiales.
 .  .  .|.  .  .
 And what do we have here, on the once-pristine walls of my chamber?|¿Y qué tenemos aquí en las otrora inmaculadas paredes de mi cámara?
-Is that ... scribble supposed to be me? Are those ... ears I'm wearing?|¿Se supone que ese garabato de ... soy yo? ¿Y que estoy llevando puesto ... orejas?
+Is that ... scribble supposed to be me? Are those ... ears I'm wearing?|¿Ese... garabato se supone que soy yo? ¿Esas son... orejas lo que llevo puesto?
+Is that ... scribble supposed to be me? Am I in ... a tin can?|¿Ese... garabato se supone que soy yo? ¿Estoy en... una lata?
 I get the impression that you are proud of this, and I cannot understand why.|Tengo la impresión de que estás orgulloso de esto, y no puedo comprender el porqué.
 Is this really an accomplishment to celebrate? Terrorizing me with an atrocity like this?|¿De verdad esto es un logro del que celebrar? ¿Aterrorizándome con una atrocidad como esta?
-Someone must have put you up to this. Was it No Significant Harassment? His name has always been considerably ironic.|Alguién debió de haberte metido en esto. ¿Fue Acoso sin Importancia? Su nombre siempre ha sido considerablemente irónico.
+Someone must have put you up to this. Was it No Significant Harassment? His name has always been considerably ironic.|Alguien debió haberte metido en esto. ¿Ha sido Acoso sin Importancia? Su nombre siempre ha sido considerablemente irónico.
 . . .|. . .
 Your blank stare behind that ridiculous headpiece gives me no answers.|Tu mirada inexpresiva detrás de ese ridículo artefacto no me da respuestas.
 It is simply laughable that a little beast climbed all the way up my exterior just to insult me in this way. I hope you realize that I am NOT<LINE>offended in any way, shape, or form. After all, I am a being who is, if you excuse me, godlike in compar-|Da gracia que una pequeña bestia haya trepado hasta mi exterior, solo para insultarme. Espero que te percates de<LINE>que NO estoy ofendido en absoluto. Pues yo soy, si me disculpas, un dios en compara...
@@ -202,7 +204,7 @@ If they find no meal, however, they will grab and eat the grub, which is truly u
 Is... Is it me?|¿Soy... Soy yo?
 As one of you?|¿Como una de ustedes?
 While I appreciate the thought, I must deeply apologize, as I am unfortunately a completely different organism. |Si bien aprecio la intención, te pido profundamente disculpas, pues yo desafortunadamente soy un organismo completamente diferente.
-My puppet might look mildly similar to you - which I truly do not see - but it is not my actual body. It is simply what I was given to express myself and speak to my creators directly.|Puede que mi marioneta se vea ligeramente similar a ti ―cosa que sinceramente no veo―, pero no es mi cuerpo real. Es simplemente lo que me fue dado para expresarme y hablar con mis creadores directamente.
+My puppet might look mildly similar to you - which I truly do not see - but it is not my actual body. It is simply what I was given to express myself and speak to my creators directly.|Puede que mi marioneta se asemeje un poco a ti ―cosa que a mí, sinceramente, no me parece―, pero no es mi cuerpo real. Es simplemente lo que me fue dado para expresarme y hablar con mis creadores directamente.
 My true body is this entire structure that you are walking through, which might be difficult for you to comprehend.|Mi verdadero cuerpo es toda esta estructura que estás presenciando, el cual puede ser difícil de asimilar para ti.
 I'm sorry I cannot be one of you, little friend.|Lo lamento, no puedo ser una de ustedes, amiguito.
 It is a red centipede, looking at a pearl. From the color, I can tell that it is the aggressive kind.|Es un ciempiés rojo observando una perla. Por el color deduzco que es de los agresivos.
@@ -249,8 +251,8 @@ It is good to see you again, even if I have nothing to give you.|Es un placer ve
 Hello again, |Hola otra vez, 
 How have you been?|¿Cómo has estado?
 Ah... |Ah... ¡
-, you're back!|, has vuelto!
-. You're here again.|. Estás aquí otra vez.
+, you're back!|, has regresado!
+. You're here again.|. Estás aquí de nuevo.
 Welcome back unusual creature.|Bienvenido de vuelta, criatura inusual.
 It seems to me like you were quite busy with your work, and yet you still made some time to visit me.|Me parece como si estuvieras muy ocupado con tu trabajo, y, aun así, has sacado un poco de tu tiempo para hacerme una visita.
 I wonder what is it that you want? Is it just to say hello?|Me pregunto qué es lo que necesitas. ¿Es solo para saludarme?
@@ -264,7 +266,7 @@ Spraying this design once then shuffling|Pintando este diseño una vez, luego al
 Hold (|Mantén pulsado (
  + | + 
 ) while carrying a rock and colorful object (pearls, fruit, etc.) to craft a Spray Can.|) mientras llevas una roca y un objeto colorido (perlas, frutas, etc.) para fabricar un Aerosol.
-Different objects produce different levels of Spray Cans. You can also combine two Spray Cans, or upgrade one with another object.|Distintos objetos producen distintos niveles de Aerosol. También puedes combinar dos Aerosoles o mejorar uno con otro objeto.
+Objects have varying amount of charge. You can also combine two Spray Cans, or recharge a can with another object.|Los objetos tienen una cantidad diversa de cargas. También puedes combinar dos Aerosoles o recargar uno con otro objeto.
 Press (|Pulsa (
 ) while carrying a Spray Can to spend a charge and spray graffiti.|) mientras llevas un Aerosol para gastar una carga y pintar un grafiti.
 ) while in midair and carrying a Spray Can to spend a charge and spray graffiti.|) mientras estás en el aire y llevas un Aerosol para gastar una carga y pintar un grafiti.
@@ -297,7 +299,7 @@ Requires a spray can to spray graffiti on the background (craft a can with a roc
 Require Spray Cans for Tagging|Requerir aerosoles para rociar
 Requires a spray can to tag creatures (craft a can with a rock and a colorful item).|Para rociar a criaturas se requerirá un aerosol (fabrica uno con una roca y un objeto colorido).
 Require Graffiti Mode Button for Controls|Requerir el botón de modo grafiti para los controles
-Use the Graffiti Mode button when crafting, spraying, and tagging. Disable if you have custom bindings and don't like having to press two buttons to perform these abilities.|Usar el botón de modo grafiti al fabricar, pintar y rociar. Desactívelo si tienes botones personalizados y no te gusta tener que pulsar dos botones para realizar estas habilidades.
+Use the Graffiti Mode button when crafting, spraying, and tagging. Disable if you have custom bindings and don't like having to press two buttons to perform these abilities.|Usar el botón de modo grafiti al fabricar, pintar y rociar. Desactívalo si tienes botones personalizados y no te gusta tener que pulsar dos botones para realizar estas habilidades.
 Use Up as Graffiti Mode|Utilizar arriba como modo grafiti
 Use the Up direction for Graffiti Mode (in addition to the normal binding).|Utilizar el direccional arriba para el modo grafiti (además del botón normal).
 Tagging Damages Jolly Players|Rociar causa daño a jugadores de Jolly Co-op
@@ -305,7 +307,9 @@ Tagging a player while in Jolly Coop does damage.|Rociar causará daño a los ju
 Graffiti Tokens in Any Campaign|Fichas de grafitis en cualquier campaña
 Be able to collect the unlockable graffiti tokens in campaigns besides Vinki's (excluding Saint)|Poder recolectar las fichas de grafitis desbloqueables fuera de la campaña de Vinki (a excepción del Santo).
 Automatically Open Quest Map|Abrir automáticamente el mapa de objetivos
-Automatically open the quest map after a cycle where you spray a new story graffiti. Disable if you want to speedrun|Abrir automáticamente el mapa de objetivos después de un ciclo en el que pintas un nuevo grafiti del modo Historia. Desactívelo si quieres hacer un speedrun.
+Automatically open the quest map after a cycle where you spray a new story graffiti. Disable if you want to speedrun|Abrir automáticamente el mapa de objetivos después de un ciclo en el que pintas un nuevo grafiti del modo Historia. Desactívalo si quieres hacer un speedrun.
+Catmaid Iterators|Iteradores catmaid
+RESTART FOR CHANGES TO TAKE EFFECT! Show art containing depictions of Five Pebbles as catmaids. Disable if you think that's weird.|¡REINICIA PARA QUE LOS CAMBIOS SE APLIQUEN! Mostrar arte que contiene representaciones de Cinco Guijarros como catmaids. Desactívalo si te parece raro.
 Wear Glasses Over DMS Skin|Usar gafas sobre la skin de DMS
 Wear Vinki's glasses on top of the current DMS skin for Vinki. Only works if you have DMS enabled.|Usar las gafas de Vinki sobre la skin de DMS actual de Vinki. Solo funciona si tienes el mod Dress My Slugcat activado.
 Graffiti Display Cycles|Ciclos de exposición de grafitis
@@ -338,7 +342,9 @@ Reset All Unlockables|Reiniciar todos los desbloqueables
 Reset all unlockable graffitis to be locked from use.|Reiniciar todos los grafitis desbloqueables para que estén bloqueados y no se puedan usar.
 Next Page|Siguiente página
 Last Page|Página anterior
+Watcher|Observador
 Misc.|Miscelánea
 Escort|Escolta
 Gravel-Eater|Comegrava
+Microbial Digestion Zone|Zona de Digestión Microbiana
 Five Pebbles (Research and Development)|Cinco Guijarros (Investigación y Desarrollo)
