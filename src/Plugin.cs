@@ -15,7 +15,7 @@ namespace Vinki
     [BepInDependency("dressmyslugcat", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("improved-input-config", BepInDependency.DependencyFlags.SoftDependency)]
     [BepInDependency("pushtomeow", BepInDependency.DependencyFlags.SoftDependency)]
-    [BepInPlugin(MOD_ID, "The Vinki", "0.12.15")]
+    [BepInPlugin(MOD_ID, "The Vinki", "0.12.17")]
     class Plugin : BaseUnityPlugin
     {
         public const string MOD_ID = "olaycolay.thevinki";
@@ -58,6 +58,8 @@ namespace Vinki
         public static float curMsPerBeat = 0;
         public static AudioSource curAudioSource;
         public static string curPlayingSong;
+
+        public static List<string> catMaidGraffitis = ["Beep - 5P or QT", "Tsuno - Loud Pebbles"];
 
         public static ManualLogSource VLogger;
 
